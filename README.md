@@ -18,7 +18,7 @@ This project focuses on analyzing a dataset of smartphone specifications to deri
 ### Data Source
 ---
 
-The primary dataset used for this analysis is the "smartphone_cleaned_v2.csv" file, containing detailed information about the features of different phone brands.
+The primary dataset used for this analysis is the "smartphone_dataset.csv" file, containing detailed information about the features of different phone brands.
 
 ### Tools Used
 ---
