@@ -9,6 +9,7 @@
   - [Exploratory Data Analysis](#exploratory-data-analysis)
   - [Results/Findings](#results/findings)
   - [Recommendations](#recommendations)
+  - [Conclusion](#conclusion)
 
   ### Project Overview
   ---
@@ -160,7 +161,7 @@ Based on the insights gained from these analyses, the following recommendations 
  2. Balance internal memory with other high-demand features (e.g., brand, processor, camera quality, build quality, etc.) to optimize the value proposition.
  3. Marketing strategies could highlight the relationship between faster processors/higher internal memory and higher prices to target consumers looking for high-performance smartphones.
 
-### Conclusions
+### Conclusion
 ---
 
 Asides the observed correlation between the internal_memory/processor_speed and price, features like the number of cores in the processor, battery capacity, and camera resolutions also play a crucial role in the overall pricing of smartphones. While these features were not individually correlated in this analysis, their combined impact contributes to the price variation observed across different models.
