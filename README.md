@@ -5,26 +5,30 @@
   - [Project Overview](#project-overview)
   - [Data Source](#data-source)
   - [Tools Used](#tools-used)
-  - [Data Cleaning/Preparation](#data-cleaning/preparation)
+  - [Data Cleaning/Preparation](#data-cleaning-preparation)
   - [Exploratory Data Analysis](#exploratory-data-analysis)
   - [Results/Findings](#results/findings)
   - [Recommendations](#recommendations)
 
   ### Project Overview
+  ---
  
 This project focuses on analyzing a dataset of smartphone specifications to derive valuable insights regarding the relationship between various features and the pricing of smartphones. The dataset comprises multiple columns detailing aspects such as the brand name, model, price, rating, connectivity features (5G, NFC, IR blaster), processor details (name, brand, number of cores, speed), battery capacity, fast-charging capability, memory (RAM and internal storage), display specifications (refresh rate, resolution), camera details (number of front and rear cameras, resolution), and operating system.
 
 ### Data Source
+---
 
 The primary dataset used for this analysis is the "smartphone_cleaned_v2.csv" file, containing detailed information about the features of different phone brands.
 
 ### Tools Used
+---
 
 - Microsoft Excel
 - Microsoft SQL Server
 
 
 ### Data Cleaning/Preparation
+---
 
 In the initial data preparation phase, the following tasks were performed:
 1. Data loading and Inspection
@@ -34,6 +38,7 @@ In the initial data preparation phase, the following tasks were performed:
 
 
 ### Exploratory Data Analysis
+---
 
 This involved exploring the smartphone data to answer key questions using sql server, such as:
 
@@ -130,6 +135,7 @@ ORDER BY price_per_ghz DESC;
 ```
 
 ### Results/Findings
+---
 
 The analysis results are summarized as follows:
 1. The most expensive phone brand is **Vertu** with an average price of 650k Rupees, while the cheapest is **Lyf** with an average price of 3,940 Rupees.
@@ -141,6 +147,7 @@ The analysis results are summarized as follows:
 7. A correlation coefficient of **0.557** between the *price* and *internal_memory* also indicates a moderate positive correlation, suggesting that there is noticeable relationship between the two variables. This means that smartphones with larger internal memory generally tend to be priced higher.
 
 ### Recommendations
+---
 
 Based on the insights gained from these analyses, the following recommendations can be considered:
 - **Product Development**: Focus on developing phones with high-demand features like 5G, fast charging, and high-resolution screens.
@@ -152,3 +159,8 @@ Based on the insights gained from these analyses, the following recommendations 
  1. Focus on developing models with higher internal memory if targeting a higher price segment.
  2. Balance internal memory with other high-demand features (e.g., brand, processor, camera quality, build quality, etc.) to optimize the value proposition.
  3. Marketing strategies could highlight the relationship between faster processors/higher internal memory and higher prices to target consumers looking for high-performance smartphones.
+
+### Conclusions
+---
+
+Asides the observed correlation between the internal_memory/processor_speed and price, features like the number of cores in the processor, battery capacity, and camera resolutions also play a crucial role in the overall pricing of smartphones. While these features were not individually correlated in this analysis, their combined impact contributes to the price variation observed across different models.
